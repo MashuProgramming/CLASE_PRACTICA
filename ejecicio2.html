@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa de Servicios - Inicio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!DOCTYPE html>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #10d9d9;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: rgb(45, 99, 94);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #214088;
+}
+
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #b1a3b2;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+section {
+    padding: 2rem;
+}
+.portafolio-items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 35px;
+}
+.portafolio h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container {
+    background-color: #336373;
+}
+.contact-details {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #139da7;
+    color: rgb(10, 9, 10);
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#descripcion">descripcion</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#precios">Precios</a></li>
+                <li><a href="#noticias.html">Noticias</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Bienvenidos a Nuestra Empresa</h1>
+            <h1>JELKIS</h1>
+            <p>Soluciones innovadoras para tu negocio</p>
+        </section>
+        <section id="descripción" class="container">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una empresa líder en servicios empresariales con más de 10 años de experiencia...</p>
+        </section>
+        <section id="contacto" class="container">
+            <h2>Información de Contacto</h2>
+            <div class="contact-details">
+                <p>📍 Dirección: Calle Principal 123, Ciudad</p>
+                <p>📞 Teléfono: +34 123 456 789</p>
+                <p>✉️ Email: info@empresa.com</p>
+            </div>
+            <main>
+        <section class="contact-form">
+            <h2>Formulario de Contacto</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="asunto">Asunto:</label>
+                    <input type="text" id="asunto" name="asunto" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                </div>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+        <section id="portafolio" class="portafolio">
+            <h2>portafolio</h2>
+            <div class="portafolio-items">
+                <div class="card">
+                    <h3>proyecto verde</h3>
+                    <p>Este proyecto esta relacion ala vulnerable de los jovenes </p>
+                </div>
+                <div class="card">
+                    <h3>proyecto rojo</h3>
+                    <p>Peligro de vulnerabilidad y suma pobreza </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Empresa de Servicios. Todos los derechos reservados.</p>
+    </footer>
+</body>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Empresa de Servicios. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
